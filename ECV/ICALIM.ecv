@@ -15,31 +15,34 @@
     <CONTROLLED_VOCABULARY CV_ID="hdx">
         <DESCRIPTION LANG_REF="und">¿A quién está la vocalización dirigida?</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="1+ niño" LANG_REF="und">N</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="El niño objetivo" LANG_REF="und">O</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="1+ adulto" LANG_REF="und">A</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="1+ niño" LANG_REF="und">N</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="Un mixto de niño(s) y adulto(s)" LANG_REF="und">M</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="1+ adulto" LANG_REF="und">A</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="Un mixto de niño(s) y adulto(s)" LANG_REF="und">M</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
             <CVE_VALUE DESCRIPTION="Inseguro" LANG_REF="und">I</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
     <CONTROLLED_VOCABULARY CV_ID="mdv">
         <DESCRIPTION LANG_REF="und">¿Madurez de la vocalización?</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="Riendo" LANG_REF="und">R</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Risa" LANG_REF="und">R</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="Llorando" LANG_REF="und">Y</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Llanto" LANG_REF="und">Y</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid3">
-            <CVE_VALUE DESCRIPTION="No-canonical (sílabas)" LANG_REF="und">N</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Sílabas no canónicas" LANG_REF="und">N</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid4">
-            <CVE_VALUE DESCRIPTION="Canonical (sílabas)" LANG_REF="und">C</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Sílabas canónicas" LANG_REF="und">C</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid5">
             <CVE_VALUE DESCRIPTION="Inseguro" LANG_REF="und">I</CVE_VALUE>
